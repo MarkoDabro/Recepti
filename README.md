@@ -36,7 +36,7 @@ Running the project
 
     Clone the repository
 
-git clone YOUR_REPOSITORY_URL
+git clone https://github.com/MarkoDabro/Recepti
 
     Open the project folder
 
