@@ -7,7 +7,7 @@ RUN npm install
 FROM node:20-alpine AS builder
 WORKDIR /app
 COPY --from=deps /app/node_modules ./node_modules
-COPY frontend/prisma/schema.prisma .
+COPY prisma ./prisma
 COPY . .
 COPY .env .env
 RUN npx prisma generate
