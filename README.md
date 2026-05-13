@@ -1,7 +1,3 @@
-README text
-
-Here is a simple English README text without code fences, exactly as requested:
-Recipe App
 
 A full-stack recipe management application built with Next.js, Prisma, PostgreSQL, and Docker. The app allows users to create, view, edit, and delete recipes through a simple interface.
 Features
